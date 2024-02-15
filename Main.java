@@ -74,6 +74,9 @@ class Main {
         if ((num1 > 10 ) || (num2 > 10)){
             throw new IllegalArgumentException("Вы ввели число превыщающее 10 или 3 числа");
         }
+        if ((num1 <= 0) || (num2 <= 0)){
+            throw new IllegalArgumentException("Вы ввели число меньше 0 или 0");
+        }
         else {
 
             int result;
